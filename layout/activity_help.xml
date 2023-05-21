@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:text="Help"
+    android:textAlignment="center"
+    tools:context=".HelpActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/gradient_color_5" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/Widget.AppCompat.TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/ld_side_cb_margin"
+        android:layout_marginTop="@dimen/ld_side_cb_margin"
+        android:layout_marginEnd="@dimen/ld_side_cb_margin"
+        android:layout_marginBottom="@dimen/ld_side_cb_margin"
+        android:textColor="@color/text_color_dark"
+        android:soundEffectsEnabled="false"
+        android:text="Help Support"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="361dp"
+        android:layout_height="394dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="208dp"
+        android:text="How to add student? &#10;1. Press &quot;Add Students&quot; &#10;2. Fill all the textbox &#10;3. Press save  &#10;&#10;How to get students' attendance? &#10;1. Press the &quot;P&quot; radio button if present, and the &quot;A&quot; radio button if absent  &#10;&#10;How to view attendance reports? &#10;1. Press the &quot;Reports&quot; button &#10;2. Press the date of the attendance report you want to know"
+        android:textAlignment="viewStart"
+        android:textColor="@color/text_color_dark"
+        android:textSize="20dp" />
+
+</RelativeLayout>
